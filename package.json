@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "rollup": "rollup -c",
-    "parcel": "parcel build src/index.js -d output-parcel", 
+    "parcel": "parcel build src/index.js -d output-parcel",
     "webpack": "webpack --config webpack.config.js"
   },
   "keywords": [],
@@ -14,12 +14,11 @@
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "parcel": "^1.12.4",
+    "rollup": "^1.27.11",
     "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
-  "dependencies": {
-    "rollup": "^1.27.11",
-    "rollup-plugin-node-resolve": "^5.2.0"
-  }
+  "dependencies": {}
 }
